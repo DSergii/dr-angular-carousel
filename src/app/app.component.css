@@ -1,0 +1,37 @@
+.test-container {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+.dr-carousel-holder {
+	width: 100%;
+	overflow:hidden;
+	position:relative;
+	height: 700px;
+}
+.dr-carousel {
+	width:9999px;
+	position:relative;
+	padding:0;
+	margin:0;
+	list-style:none;
+	overflow: hidden;
+  transition: margin .3s linear;
+}
+
+.dr-carousel li {
+	list-style: none;
+	float: left;
+	width: 1300px;
+
+}
+
+.dr-carousel li img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.dr-carousel li.active {
+	//margin-left: -1300px;
+}
